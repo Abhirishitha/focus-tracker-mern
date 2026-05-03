@@ -22,7 +22,7 @@ export default function Signup({ onBack }: Props) {
     }
 
     try {
-      await axios.post("http://localhost:5000/send-otp", { email });
+      await axios.post("https://focus-tracker-backend-aqe3.onrender.com/send-otp", { email });
       alert("OTP sent to your email");
       setOtpSent(true);
     } catch (err) {

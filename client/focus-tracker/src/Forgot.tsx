@@ -18,7 +18,7 @@ export default function Forgot({ onBack }: Props) {
     try {
       setLoading(true); // ✅ ADDED
 
-      await axios.post("http://localhost:5000/send-otp", {
+      await axios.post("https://focus-tracker-backend-aqe3.onrender.com/send-otp", {
         email
       });
 

@@ -22,7 +22,7 @@ function App() {
       return;
     }
 
-    axios.get("http://localhost:5000/user", {
+    axios.get("https://focus-tracker-backend-aqe3.onrender.com", {
       headers: { authorization: token }
     })
     .then(res => {

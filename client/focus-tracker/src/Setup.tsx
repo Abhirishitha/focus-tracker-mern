@@ -87,7 +87,7 @@ export default function Setup({ onDone }: Props) {
         productive
       };
 
-      await axios.post("http://localhost:5000/setup", payload, {
+      await axios.post("https://focus-tracker-backend-aqe3.onrender.com/setup", payload, {
         headers: { authorization: token }
       });
 

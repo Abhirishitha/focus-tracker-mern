@@ -40,7 +40,7 @@ export default function Dashboard({ goToAnalysis }: Props) {
 
     const fetchData = () => {
       axios
-        .get(`http://localhost:5000/data?userId=${userId}`)
+        .get(`https://focus-tracker-backend-aqe3.onrender.com/data?userId=${userId}`)
         .then((res) => {
           setData(res.data);
           setLoading(false);

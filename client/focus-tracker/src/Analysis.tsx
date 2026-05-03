@@ -22,7 +22,7 @@ export default function Analysis({ goBack }: Props) {
     const userId = localStorage.getItem("userId");
 
     axios
-      .get(`http://localhost:5000/data?userId=${userId}`)
+      .get(`https://focus-tracker-backend-aqe3.onrender.com/data?userId=${userId}`)
       .then(res => {
         console.log("Analysis Data:", res.data); // debug
         setData(res.data);
