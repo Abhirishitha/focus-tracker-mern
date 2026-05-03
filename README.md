@@ -101,9 +101,9 @@ npm run dev
 
 ## 📸 Screenshots
 
-_Add screenshots of login, setup, dashboard, and charts here_
-
----
+<img width="1913" height="850" alt="image" src="https://github.com/user-attachments/assets/6c5ad3fc-8e43-4c4a-ac16-22e1e86ebbfa" />
+<img width="1309" height="703" alt="image" src="https://github.com/user-attachments/assets/c6d5f5a1-d01a-48ed-af0f-8d21dcedcb4e" />
+<img width="1634" height="750" alt="image" src="https://github.com/user-attachments/assets/436d6c98-cb52-4d2f-93a4-b6541a1dfaf4" />
 
 ## 🌐 Deployment
 
